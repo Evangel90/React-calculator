@@ -5,7 +5,7 @@ import click2 from "./assets/audio/click2.wav";
 import "./Metronome.css";
 
 const numberButtons = [7, 8, 9, 4, 5, 6, 1, 2, 3];
-const operatorButtons = ["/", "-", "="];
+const operatorButtons = ["/", "-", "+", "="];
 
 class Metronome extends React.Component {
   constructor() {
